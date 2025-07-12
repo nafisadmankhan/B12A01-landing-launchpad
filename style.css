@@ -98,6 +98,7 @@ nav{
 .users-title{
   font-weight: bold;
   font-size: 38px;
+  margin-bottom: 50px;
 }
 
 .users-items{
@@ -165,7 +166,7 @@ main section{
 }
 
 .ready{
-  background-color: rgba(78, 71, 255, 0.1);
+  background-color: white;
   text-align: center;
   padding: 50px 80px;
   border-radius: 24px;
@@ -173,4 +174,104 @@ main section{
 
 .ready-picture{
   margin-top: 50px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F5F8FF;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+}
+
+.contact-text h1 {
+  font-size: 97px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.contact-form {
+  max-width: 400px;
+  width: 100%;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.contact-form button {
+  padding: 15px;
+  background-color: #4E47FF;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.footer {
+  width: 100vw; 
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  text-align: center;
+  padding: 100px 10px;
+  background-color: #fff;
+}
+
+.footer .logo {
+  font-size: 100px;
+  font-weight: bold;
+  color: #4E47FF; 
+  margin-bottom: 8px;
+}
+
+.footer-text {
+  max-width: 600px;
+  margin: 0 auto 20px;
+  color: #777;
+  font-size: 14px;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 0;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #8987A1;
+  font-size: 14px;
+}
+
+button, .btn-primary {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover, .btn-primary:hover {
+  background-color: #3b35cc; 
+  color: #ffffff; 
 }
