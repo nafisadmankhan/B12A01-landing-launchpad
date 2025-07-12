@@ -16,23 +16,7 @@
 .header{
   background-image: url("Assets/Hero-bg.png");
   background-image: no-repeat;
-}
-
-/* Navbar container */
-.navbar {
-  background: url('your-background-image.jpg') no-repeat center center;
-  background-size: cover;
-  padding: 20px 0;
-}
-
-/* Flex container for logo and button */
-.navbar .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background-position: top left;
 }
 
 /* Logo text */
@@ -62,14 +46,44 @@ nav{
   display: flex;
   justify-content: space-between;
   margin: 0px 150px;
+  padding: 50px 0;
 }
 
 /* Banner styles */
 .banner{
-  margin: 309px 267.5px 152px 267px;
+  /* margin: 309px 267.5px 152px 200px; */
+  /* margin-bottom: 152px; */
+  padding: 158px 267.5px 152px 267.5px;
+  text-align: center;
 }
 
 .banner-description{
   font-size: 65px;
   font-weight: bold;
+}
+
+/* action styles */
+.action{
+  margin: 116px 159px 116px 141px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.action-title{
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.action-description{
+  font-size: 24px;
+  color: #252432;
+}
+
+.action-profile-picture{
+  border-radius: 48px;
+}
+
+/* main styles */
+main{
+
 }
