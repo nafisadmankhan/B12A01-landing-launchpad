@@ -1,0 +1,75 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: 700; */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Shared Style */
+.text-primary{
+  color: #4E47FF;
+}
+
+/* header */
+.header{
+  background-image: url("Assets/Hero-bg.png");
+  background-image: no-repeat;
+}
+
+/* Navbar container */
+.navbar {
+  background: url('your-background-image.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 20px 0;
+}
+
+/* Flex container for logo and button */
+.navbar .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo text */
+.logo {
+  color: #4E47FF;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+/* Sign Up button */
+.btn-primary {
+  background:#4E47FF; /* Example bright color */
+  color: #fff;
+  border: none;
+  padding: 12px 36px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.signup-btn:hover {
+  
+}
+
+/* Nav styles */
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 150px;
+}
+
+/* Banner styles */
+.banner{
+  margin: 309px 267.5px 152px 267px;
+}
+
+.banner-description{
+  font-size: 65px;
+  font-weight: bold;
+}
