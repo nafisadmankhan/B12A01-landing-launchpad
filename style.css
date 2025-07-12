@@ -12,6 +12,10 @@
   color: #4E47FF;
 }
 
+.text-center{
+  text-align: center;
+}
+
 /* header */
 .header{
   background-image: url("Assets/Hero-bg.png");
@@ -115,8 +119,54 @@ nav{
   margin: 0px;
 }
 
+.feedback{
+
+}
+
+.feedbacks-container{
+  display: flex;
+}
+
+.star-container{
+  display: flex;
+}
+
 /* main styles */
 main{
   max-width: 1140px;
   margin: 0 auto;
+}
+
+main section{
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+.feedback {
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.feedback-user-profile{
+  display: flex;
+  align-items: center;
+}
+
+.feedback-user-profile img{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;   
+  border-radius: 50%;  
+  margin-right: 15px;
+}
+
+.feedback-user-profile p{  
+  margin: 0;
+}
+
+.ready{
+  background-color: rgba(78, 71, 255, 0.1);
+  text-align: center;
+  padding: 50px 80px;
+  border-radius: 24px;
 }
